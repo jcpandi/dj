@@ -28,6 +28,7 @@ export const getStaticProps = async (context) => {
 const Details = ({ ninja }) => {
   return (
     <div>
+       <img src ={ninja.image} width={250}  height={250}    alt="" />
       <h1>{ ninja.title }</h1>
       <p>{ ninja.description }</p>
       <p>{ ninja.price }</p>
