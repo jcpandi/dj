@@ -17,7 +17,7 @@ const Ninjas = ({ ninjas }) => {
     <div>
       <h1>All Ninjas</h1>
       {ninjas.map(ninja => (
-        <Link href={'/ninjas/' + ninja.id} key={ninja.id}>
+        <Link href={'/products/' + ninja.id} key={ninja.id}>
           <a className={styles.single}>
           <h3>{ ninja.title }</h3>
             <h3>{ ninja.description }</h3>
