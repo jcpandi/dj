@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ninja List | Home</title>
-        <meta name="keywords" content="ninjas"/>
+        <title>My First JAMStack Project | Home</title>
+        <meta name="keywords" content="JamStack"/>
       </Head>
       <div>
         <h1 className={styles.title}>Homepage</h1>
