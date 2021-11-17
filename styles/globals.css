@@ -23,6 +23,7 @@ nav {
 }
 nav a {
   margin-left: 12px;
+  margin-right: 12px;
 }
 nav .logo {
   margin-right: auto;
