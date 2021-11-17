@@ -31,7 +31,7 @@ const Details = ({ ninja }) => {
        <img src ={ninja.image} width={250}  height={250}    alt="" />
       <h1>{ ninja.title }</h1>
       <p>{ ninja.description }</p>
-      <p>{ ninja.price }</p>
+      <p>${ ninja.price }</p>
      
     </div>
   );
