@@ -19,7 +19,7 @@ const Ninjas = ({ ninjas }) => {
       {ninjas.map(ninja => (
         <Link href={'/products/' + ninja.id} key={ninja.id}>
           <a className={styles.single}>
-          <h3>{ ninja.image }</h3>
+          <img src ={ninja.image} width={250}  height={250}    alt="" />
           <h3>{ ninja.title }</h3>
             <h3>{ ninja.description }</h3>
             <h3>{ ninja.price }</h3>
